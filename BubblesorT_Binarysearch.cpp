@@ -44,7 +44,7 @@ int main() {
         std::cin >> arr[i];
     }
 
-    // Sort the array in ascending order using bubble sort
+    
     bubble_sort(arr, n);
 
     int key;
