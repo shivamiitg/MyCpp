@@ -9,7 +9,7 @@ int binary_search(int arr[], int n, int key){
     while(s<=e){
         int mid=(s+e)/2;
         if(key==arr[mid]){
-            return mid;  // Return the index of the found element
+            return mid;  
         }
         else if(key<arr[mid]){
             e=mid-1 ;
